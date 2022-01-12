@@ -1,4 +1,4 @@
-using bitofa.helper;
+using bitofa.helper.Extensions;
 using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
