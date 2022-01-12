@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bitofa.helper", "bitofa.helper\bitofa.helper.csproj", "{1AF346CE-E9DF-4AF7-9BF7-B10CD6E122FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AF346CE-E9DF-4AF7-9BF7-B10CD6E122FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AF346CE-E9DF-4AF7-9BF7-B10CD6E122FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AF346CE-E9DF-4AF7-9BF7-B10CD6E122FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AF346CE-E9DF-4AF7-9BF7-B10CD6E122FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A31BE41-0484-4E75-931F-B55F6D913441}
+	EndGlobalSection
+EndGlobal
