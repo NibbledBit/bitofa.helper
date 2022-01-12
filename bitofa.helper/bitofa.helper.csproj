@@ -7,7 +7,7 @@
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <Copyright>NibbledBit</Copyright>
     <PackageLicenseExpression />
-    <PackageLicenseFile>MIT Licence.txt</PackageLicenseFile>
+    <PackageLicenseFile></PackageLicenseFile>
     <RepositoryUrl>https://github.com/NibbledBit/bitofa.helper</RepositoryUrl>
     <AssemblyVersion>0.0.1.0</AssemblyVersion>
     <FileVersion>0.0.1.0</FileVersion>
@@ -17,12 +17,5 @@
     <PackageReleaseNotes>Project begins!
 Object Extensions added.</PackageReleaseNotes>
   </PropertyGroup>
-
-  <ItemGroup>
-    <None Include="..\..\..\..\OneDrive\Documents\MIT Licence.txt">
-      <Pack>True</Pack>
-      <PackagePath></PackagePath>
-    </None>
-  </ItemGroup>
 
 </Project>

@@ -7,6 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bitofa.helper", "bitofa.hel
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bitofa.test", "bitofa.test\bitofa.test.csproj", "{426945A2-1D03-441D-9645-250821568680}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9A68FA04-FF3A-46A0-93AD-A06F80355D26}"
+	ProjectSection(SolutionItems) = preProject
+		MITLicense.txt = MITLicense.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

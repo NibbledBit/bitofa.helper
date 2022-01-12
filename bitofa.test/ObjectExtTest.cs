@@ -4,7 +4,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace bitofa.test {
     [TestClass]
-    public class UnitTest1 {
+    public class ObjectExtTest {
         [TestMethod]
         public void Test_Exists_True() {
             object test = new { Test = "Not Null" };
