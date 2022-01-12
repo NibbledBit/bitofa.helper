@@ -37,6 +37,5 @@ namespace bitofa.test {
             test.Should().NotBeNull();
             exists.Should().BeFalse();
         }
-
     }
 }
