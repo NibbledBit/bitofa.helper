@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\bitofa.helper\bitofa.helper.csproj" />
+    <ProjectReference Include="..\bitofa.helper\BitOfA.Helper.csproj" />
   </ItemGroup>
 
 </Project>

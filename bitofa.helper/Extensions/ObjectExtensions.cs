@@ -1,4 +1,4 @@
-﻿namespace bitofa.helper.Extensions {
+﻿namespace BitOfA.Helper.Extensions {
     public static class ObjectExtensions {
         public static bool Exists<T>(this T obj) {
             return obj != null;

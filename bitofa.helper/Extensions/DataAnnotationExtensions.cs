@@ -2,7 +2,7 @@
 using System.ComponentModel;
 using System.Reflection;
 
-namespace bitofa.helper.Extensions {
+namespace BitOfA.Helper.Extensions {
     public static class DataAnnotationExtensions {
         public static string GetDescription<T>(this string fieldName) {
             string result;

@@ -1,8 +1,8 @@
-using bitofa.helper.Extensions;
+using BitOfA.Helper.Extensions;
 using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace bitofa.test {
+namespace BitOfA.test {
     [TestClass]
     public class ObjectExtTest {
         [TestMethod]

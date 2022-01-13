@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace bitofa.helper.Extensions {
+namespace BitOfA.Helper.Extensions {
     public static class StringExtensions {
         public static bool IsANumber(this string str) {
             return int.TryParse(str, out _);

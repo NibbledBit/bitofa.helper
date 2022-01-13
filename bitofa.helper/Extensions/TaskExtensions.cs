@@ -3,7 +3,7 @@ using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace bitofa.helper.Extensions {
+namespace BitOfA.Helper.Extensions {
     public static class TaskHelper {
 
         /// <summary>

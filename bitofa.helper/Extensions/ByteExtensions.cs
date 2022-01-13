@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace bitofa.helper.Extensions {
+namespace BitOfA.Helper.Extensions {
     public static class ByteExtensions {
 
         /// <summary>
