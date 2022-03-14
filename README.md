@@ -1,4 +1,4 @@
-# bitofa.helper
+# BitOfA.Helper
 C# Helper Library
 
 
