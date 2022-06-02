@@ -4,7 +4,7 @@ namespace BitOfA.Helper.Persistence
 {
     public interface IKeyedRecord<T> where T : struct
     {
-        public T Id { get; set; }
+        public T Id { get; }
     }
     public interface IIntKeyedRecord : IKeyedRecord<int>
     {
