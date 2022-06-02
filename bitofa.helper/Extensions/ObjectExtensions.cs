@@ -1,9 +1,13 @@
-﻿namespace BitOfA.Helper.Extensions {
-    public static class ObjectExtensions {
-        public static bool Exists<T>(this T obj) {
+﻿namespace BitOfA.Helper.Extensions
+{
+    public static class ObjectExtensions
+    {
+        public static bool Exists<T>(this T obj)
+        {
             return obj != null;
         }
-        public static bool DoesNotExist<T>(this T obj) {
+        public static bool DoesNotExist<T>(this T obj)
+        {
             return obj == null;
         }
     }

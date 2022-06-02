@@ -1,7 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
 namespace BitOfA.Helper.Persistence {
-    public interface IContextFactory {
-        DbContext CreateContext();
+    public interface IContextFactory<T> where T : DbContext
+    {
+        T CreateContext();
     }
 }

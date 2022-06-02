@@ -1,11 +1,15 @@
 ﻿using System;
 
-namespace BitOfA.Helper.Extensions {
-    public static class StringExtensions {
-        public static bool IsANumber(this string str) {
+namespace BitOfA.Helper.Extensions
+{
+    public static class StringExtensions
+    {
+        public static bool IsANumber(this string str)
+        {
             return int.TryParse(str, out _);
         }
-        public static string ReplaceLastOccurrence(this string source, string find, string replace) {
+        public static string ReplaceLastOccurrence(this string source, string find, string replace)
+        {
             int place = source.LastIndexOf(find);
             return source.Remove(place, find.Length).Insert(place, replace);
         }
@@ -15,12 +19,15 @@ namespace BitOfA.Helper.Extensions {
         /// <param name="str">String to truncate.</param>
         /// <param name="length">Maximum string length.</param>
         /// <returns>Original string or a truncated one if the original was too long.</returns>
-        public static string Truncate(this string str, int length) {
-            if (length < 0) {
+        public static string Truncate(this string str, int length)
+        {
+            if (length < 0)
+            {
                 throw new ArgumentOutOfRangeException(nameof(length), "Length must be >= 0");
             }
 
-            if (str == null) {
+            if (str == null)
+            {
                 return null;
             }
 

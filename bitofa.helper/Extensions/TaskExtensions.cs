@@ -11,7 +11,7 @@ namespace BitOfA.Helper.Extensions {
         /// background, separate from the current thread, with no risk
         /// of it trying to rejoin the current thread.
         /// </summary>
-        public static void RunBg(Func<Task> fn) {
+        public static void FireAndForget(Func<Task> fn) {
             Task.Run(fn).ConfigureAwait(false);
         }
 
@@ -21,7 +21,7 @@ namespace BitOfA.Helper.Extensions {
         /// are multiple gaps in thread use that may be long.
         /// Use for example when talking to a slow webservice.
         /// </summary>
-        public static void RunBgLong(Func<Task> fn) {
+        public static void FireAndForgetLong(Func<Task> fn) {
             Task.Factory.StartNew(fn, TaskCreationOptions.LongRunning)
                 .ConfigureAwait(false);
         }
