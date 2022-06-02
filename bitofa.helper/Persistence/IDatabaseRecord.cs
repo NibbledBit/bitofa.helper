@@ -1,15 +1,21 @@
-﻿namespace BitOfA.Helper.Persistence
+﻿using System;
+
+namespace BitOfA.Helper.Persistence
 {
     public interface IKeyedRecord<T> where T : struct
     {
         public T Id { get; set; }
     }
-    public interface IIntKeyRecord : IKeyedRecord<int>
+    public interface IIntKeyedRecord : IKeyedRecord<int>
     {
 
     }
-    public class TestRecord : IIntKeyRecord
+    public interface ILongKeyedRecord : IKeyedRecord<long>
     {
-        public int Id { get; set; }
+
+    }
+    public interface IGuidKeyedRecord : IKeyedRecord<Guid>
+    {
+
     }
 }
