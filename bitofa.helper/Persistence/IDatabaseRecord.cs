@@ -4,11 +4,11 @@
     {
         public T Id { get; set; }
     }
-    public interface IStandardRecord : IKeyedRecord<int>
+    public interface IIntKeyRecord : IKeyedRecord<int>
     {
 
     }
-    public class TestRecord : IStandardRecord
+    public class TestRecord : IIntKeyRecord
     {
         public int Id { get; set; }
     }
