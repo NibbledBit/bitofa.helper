@@ -1,24 +1,18 @@
-﻿using System.Threading.Tasks;
-
-namespace BitOfA.Helper.MVVM
+﻿namespace BitOfA.Helper.MVVM
 {
     public abstract class ViewModelBase : IViewModel
     {
-        public virtual Task OnAppearing()
+        public virtual void OnAppearing()
         {
-            return Task.CompletedTask;
         }
-        public virtual Task OnDisappearing()
+        public virtual void OnDisappearing()
         {
-            return Task.CompletedTask;
         }
-        public virtual Task OnAppeared()
+        public virtual void OnAppeared()
         {
-            return Task.CompletedTask;
         }
-        public virtual Task OnDispeared()
+        public virtual void OnDispeared()
         {
-            return Task.CompletedTask;
         }
     }
 }
