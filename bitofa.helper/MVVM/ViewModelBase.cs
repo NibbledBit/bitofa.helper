@@ -4,8 +4,9 @@ namespace BitOfA.Helper.MVVM
 {
     public abstract class ViewModelBase : IViewModel
     {
-        public virtual Task OnAppearing() { 
-        return Task.CompletedTask;
+        public virtual Task OnAppearing()
+        {
+            return Task.CompletedTask;
         }
         public virtual Task OnDisappearing()
         {
