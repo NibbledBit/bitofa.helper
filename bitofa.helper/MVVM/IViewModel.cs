@@ -8,10 +8,6 @@ namespace BitOfA.Helper.MVVM
 {
     public interface IViewModel
     {
-        public Task OnAppearing();
-        public Task OnAppeared();
-        public Task OnDisappearing();
-        public Task OnDisappeared();
 
     }
 }
