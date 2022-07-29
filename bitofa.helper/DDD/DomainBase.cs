@@ -1,25 +1,20 @@
 ﻿using System.Collections.Generic;
 
-namespace BitOfA.Helper.DDD
-{
-    public abstract class DomainBase : IDomainModel
-    {
+namespace BitOfA.Helper.DDD {
+    public abstract class DomainBase : IDomainModel {
 
-        public DomainBase()
-        {
+        public DomainBase() {
             _domainEvents = new List<INotification>();
         }
 
         private List<INotification> _domainEvents;
         public List<INotification> DomainEvents => _domainEvents;
 
-        public void AddDomainEvent(INotification eventItem)
-        {
+        public void AddDomainEvent(INotification eventItem) {
             _domainEvents.Add(eventItem);
         }
 
-        public void RemoveDomainEvent(INotification eventItem)
-        {
+        public void RemoveDomainEvent(INotification eventItem) {
             _domainEvents?.Remove(eventItem);
         }
 

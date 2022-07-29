@@ -2,8 +2,7 @@
 
 namespace BitOfA.Helper.DDD;
 
-public interface IDomainModel
-{
+public interface IDomainModel {
     List<INotification> DomainEvents { get; }
     int Id { get; }
 }
