@@ -1,11 +1,13 @@
-﻿namespace BitOfA.Helper.MVVM
+﻿using System.Threading.Tasks;
+
+namespace BitOfA.Helper.MVVM
 {
     public interface IViewModel
     {
-        void OnAppeared();
-        void OnAppearing();
-        void OnDisappearing();
-        void OnDispeared();
+        Task OnAppeared();
+        Task OnAppearing();
+        Task OnDisappearing();
+        Task OnDispeared();
 
     }
 }
